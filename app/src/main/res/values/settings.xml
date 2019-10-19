@@ -1,0 +1,4 @@
+<resources>
+    <string name="google_app_script_url">https://script.google.com/macros/s/CHANGE_ME!!!!/exec</string>
+    <string name="google_app_script_secret">CHANGE_ME!!!!</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headingText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/headingText"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <Button
+                android:id="@+id/startFeeding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_media_play"
+                android:text="@string/startFeeding" />
+
+            <Button
+                android:id="@+id/endFeeding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_media_pause"
+                android:text="@string/endFeeding" />
+
+            <Button
+                android:id="@+id/lastFeedbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_menu_info_details"
+                android:text="@string/lastFeed" />
+
+            <Button
+                android:id="@+id/poop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/stat_sys_download"
+                android:text="@string/poop" />
+
+            <TextView
+                android:id="@+id/results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/initResults" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.wear.widget.BoxInsetLayout>

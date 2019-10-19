@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyBabyLog</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="headingText">Emily Log</string>
+    <string name="startFeeding">Start Feeding</string>
+    <string name="endFeeding">End Feeding</string>
+    <string name="poop">Oh Shit!</string>
+    <string name="initResults">Press a button. Results will appear here.</string>
+    <string name="msg_sent">Activity Saved!</string>
+    <string name="msg_fail">Could not save activity :(</string>
+    <string name="lastFeed">Last Feed Time</string>
+</resources>
